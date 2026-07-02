@@ -3,6 +3,8 @@
 
 **ଓଡ଼ିଆ ଭାଷାରେ** ଲେଖା ହୋଇଥିବା ଏକ beginner-friendly Machine Learning project — ପିଲାମାନଙ୍କୁ AI ଶିଖାଇବା ପାଇଁ। ଆମ୍ବ ଓ କମଳା ଚିହ୍ନଟ କରି AI ଶିଖ!
 
+> 🎁 **ନୂଆ Bonus Level:** ଶେଷରେ ଦୁଇଟି modern-AI concept ମଧ୍ୟ ଅଛି — **RAG** (Open-Book AI 📖) ଓ **PCP** (Step-by-Step AI 🔗) — ସେହି ସମାନ ଫଳ-detective style ରେ, କୌଣସି extra install ବା API key ବିନା।
+
 ![Notebook Output](notebook-output-colab.jpeg)
 
 ---
@@ -16,12 +18,14 @@
 5. [Step 4 — AI ଶିଖାଅ Training](#-step-4--ai-ଶିଖାଅ-training)
 6. [Step 5 — ନୂଆ ଫଳ Test](#-step-5--ନୂଆ-ଫଳ-test)
 7. [Step 6 — Victory Charts](#-step-6--victory-charts)
-8. [ଡାଟା ର ଯାତ୍ରା — End-to-End Flow](#-ଡାଟା-ର-ଯାତ୍ରା--end-to-end-flow)
-9. [୧୦୦% Accuracy କାହିଁକି?](#-୧୦୦-accuracy-କାହିଁକି)
-10. [ଚେଷ୍ଟା କର — Experiments](#-ଚେଷ୍ଟା-କର--experiments)
-11. [ML ଶବ୍ଦ ଭଣ୍ଡାର](#-ml-ଶବ୍ଦ-ଭଣ୍ଡାର)
-12. [Notebook ଚଲାଅ — How to Run](#-notebook-ଚଲାଅ--how-to-run)
-13. [Files ସୂଚୀ](#-files-ସୂଚୀ)
+8. [🎁 Bonus Step 7 — RAG (Open-Book AI)](#-bonus-step-7--rag-open-book-ai)
+9. [🎁 Bonus Step 8 — PCP (Step-by-Step AI)](#-bonus-step-8--pcp-step-by-step-ai)
+10. [ଡାଟା ର ଯାତ୍ରା — End-to-End Flow](#-ଡାଟା-ର-ଯାତ୍ରା--end-to-end-flow)
+11. [୧୦୦% Accuracy କାହିଁକି?](#-୧୦୦-accuracy-କାହିଁକି)
+12. [ଚେଷ୍ଟା କର — Experiments](#-ଚେଷ୍ଟା-କର--experiments)
+13. [ML ଶବ୍ଦ ଭଣ୍ଡାର](#-ml-ଶବ୍ଦ-ଭଣ୍ଡାର)
+14. [Notebook ଚଲାଅ — How to Run](#-notebook-ଚଲାଅ--how-to-run)
+15. [Files ସୂଚୀ](#-files-ସୂଚୀ)
 
 ---
 
@@ -320,6 +324,83 @@ axes[1].axhline(y=100, color='gray', linestyle='--')
 
 ---
 
+## 🎁 Bonus Step 7 — RAG (Open-Book AI)
+
+> 🤖 **Robot:** "ଫଳ ଚିହ୍ନଟ ତ ହୋଇଗଲା! ଏବେ ମୁଁ **book ଖୋଜି କଥା** ମଧ୍ୟ କହିପାରିବି! 📖"
+
+**RAG = Retrieval-Augmented Generation** — ଆଜିକାଲି ର AI (ଯେମିତି ChatGPT) ର trick। Model ସବୁ ମନେ ରଖେ ନାହିଁ — ପ୍ରଶ୍ନ ଆସିଲେ ଆଗେ **book ରୁ ଠିକ page ଖୋଜେ (Retrieval)**, ତାପରେ **ଉତ୍ତର ତିଆର କରେ (Generation)**। ଠିକ ଯେମିତି **open-book exam**! 😎
+
+> 💡 ଏଥିରେ **ନୂଆ install ନାହିଁ, API key ନାହିଁ** — ଆମ ପୁରୁଣା `sklearn` ହିଁ ଯଥେଷ୍ଟ।
+
+### Code ର ଅର୍ଥ:
+
+```python
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+
+fruit_book = [
+    "ଆମ୍ବ ହାଲୁକା ହୁଏ, ଓଜନ 80 ରୁ 110 gram...",
+    "କମଳା ଭାରୀ ହୁଏ, ଓଜନ 130 ରୁ 200 gram...",
+    ...
+]
+book_vectors = TfidfVectorizer().fit_transform(fruit_book)
+```
+- `fruit_book` = Robot ର **knowledge base** — ଫଳ facts ର ପ୍ରତ୍ୟେକ line ଏକ "page"।
+- `TfidfVectorizer` ପ୍ରତ୍ୟେକ page କୁ **"meaning fingerprint"** (numbers) ରେ ବଦଳାଏ — ଏହାକୁ *embedding* କୁହାଯାଏ।
+
+```python
+scores = cosine_similarity(q_vec, book_vectors)[0]
+best   = scores.argmax()      # ସବୁଠୁ ଭଲ page
+```
+- ପ୍ରଶ୍ନ ର fingerprint ପ୍ରତ୍ୟେକ page ସହ କେତେ ମେଳ ଖାଉଛି — `cosine_similarity` ମାପେ।
+- `argmax()` = ସବୁଠୁ ଭଲ ମେଳ page ବାଛେ → **Retrieval!**
+
+### Output:
+```
+❓ ପ୍ରଶ୍ନ  : କମଳା ର ଓଜନ କେତେ?
+🔍 Robot book ଖୋଜିଲା (match score = 0.30)
+   📖 Page: କମଳା ଭାରୀ ହୁଏ, ଓଜନ 130 ରୁ 200 gram...
+🤖 Robot : 'କମଳା ଭାରୀ ହୁଏ, ଓଜନ 130 ରୁ 200 gram — ଏଇଟି ମୋ ଉତ୍ତର!'
+```
+
+> ✨ **ମୂଳ କଥା:** Robot କିଛି ମନେ ରଖି ନାହିଁ — book ବଦଳାଇ ଦେ, ଉତ୍ତର ନିଜେ ବଦଳିଯିବ। **କୌଣସି re-training ନାହିଁ!** ଏଇଟି ହିଁ RAG ର superpower।
+
+---
+
+## 🎁 Bonus Step 8 — PCP (Step-by-Step AI)
+
+> 🤖 **Robot:** "ବଡ଼ ପ୍ରଶ୍ନ କୁ ଏକାଥରେ ନୁହେଁ — **ଛୋଟ ଛୋଟ step** ରେ ଭାଙ୍ଗି solve କରେ! relay race ଭଳି 🏃→🏃→🏃"
+
+**PCP = Prompt Chaining Pattern** — ଗୋଟିଏ ବଡ଼ କାମ କୁ ଛୋଟ ଛୋଟ step ର **chain** ରେ ଭାଙ୍ଗ। ପ୍ରତ୍ୟେକ step ର ଉତ୍ତର ପରবର୍ତ୍ତୀ step କୁ **baton** ଭଳି pass ହୁଏ 🥎।
+
+**ଆମ chain:** ମାପ → ତୁଳନା → ନିଷ୍ପତ୍ତି → ବୁଝାଅ
+
+### Code ର ଅର୍ଥ:
+
+```python
+def robot_thinks(fruit):
+    w, c  = step1_measure(fruit)   # 🥎 baton 1 — ଓଜନ ଓ ରଙ୍ଗ ମାପ
+    h, c  = step2_compare(w, c)    # 🥎 baton 2 — 120g boundary ସହ ତୁଳନା
+    guess = step3_decide(h, c)     # 🥎 baton 3 — ଆମ୍ବ ନା କମଳା ନିଷ୍ପତ୍ତି
+    step4_explain(guess)           # 🥎 baton 4 — କାରଣ ବୁଝାଅ
+    return guess
+```
+- ପ୍ରତ୍ୟେକ `step` ର **output** ପରবର୍ତ୍ତୀ step ର **input** ହୁଏ।
+- ପ୍ରତ୍ୟେକ step ଛୋଟ, ସହଜ ଓ **ଅଲଗା ଅଲଗା check** କରିହେବ — ଭୁଲ ହେଲେ ସହଜରେ ଧରାପଡ଼େ।
+
+### Output:
+```
+🎭 Mystery Fruit ଆସିଲା: [175, 1]
+🥎 Step 1 — ମାପ    : ଓଜନ = 175g, ରଙ୍ଗ code = 1
+🥎 Step 2 — ତୁଳନା  : 120g boundary ସହ → ଭାରୀ 💪
+🥎 Step 3 — ନିଷ୍ପତ୍ତି: ଏଇଟି 🍊 କମଳା
+🥎 Step 4 — ବୁଝାଅ   : '🍊 କମଳା, କାରଣ ଏହା ଭାରୀ ଓ କମଳା ରଙ୍ଗ!'
+```
+
+> ✨ **RAG + PCP ମିଶିଲେ:** ବଡ଼ AI assistant ଦୁଇଟି ଏକାଠି ବ୍ୟବହାର କରେ — **RAG facts ଆଣେ**, ତାପରେ **PCP ସେଇ facts କୁ step-by-step process କରି** ଶେଷ ଉତ୍ତର ଦିଏ।
+
+---
+
 ## 🔄 ଡାଟା ର ଯାତ୍ରା — End-to-End Flow
 
 ```
@@ -432,6 +513,11 @@ print(f"Test accuracy: {accuracy_score(y_test, model.predict(X_test))*100:.0f}%"
 | **Accuracy** | ଠିକ ଉତ୍ତର ର % | Report Card 📝 |
 | **Overfitting** | Rote learn — ଆସଲ ଶିଖା ନାହିଁ | Robot ମୁଣ୍ଡ ପକ 😂 |
 | **EDA** | Training ଆଗରୁ data ଚିତ୍ର ଦେଖ | ଖେଳ ଆଗରୁ field ଦେଖ |
+| **RAG** | ଆଗେ book ଖୋଜ, ତାପରେ ଉତ୍ତର | Open-book exam 📖 |
+| **Retrieval** | ଠିକ page/document ଖୋଜିବା | Book ରେ bookmark ⭐ |
+| **Embedding** | ଶବ୍ଦ ର "meaning fingerprint" | ପ୍ରତ୍ୟେକ line ର ID card 🪪 |
+| **PCP** | ବଡ଼ କାମ କୁ ଛୋଟ step ର chain | Relay race 🏃→🏃 |
+| **Chaining** | ଗୋଟିଏ step ର ଉତ୍ତର ଅନ୍ୟ କୁ ଦେବା | Baton pass 🥎 |
 
 ---
 
@@ -486,6 +572,11 @@ pip install numpy matplotlib scikit-learn
 | cell-11 | Markdown | Victory intro | Celebration |
 | cell-12 | Code | Pie + Bar charts | subplots, pie, bar, axhline |
 | cell-13 | Markdown | Glossary + next steps | Recap |
+| Bonus | Markdown | Bonus Level intro (RAG vs PCP) | Modern AI concepts |
+| Bonus | Code | RAG — TF-IDF retrieval + answer | Retrieval, embeddings, cosine similarity |
+| Bonus | Markdown | PCP intro | Prompt Chaining Pattern |
+| Bonus | Code | PCP — 4-step decision chain | Chaining, step-by-step reasoning |
+| Bonus | Markdown | RAG + PCP combo + glossary | Recap |
 
 ---
 
