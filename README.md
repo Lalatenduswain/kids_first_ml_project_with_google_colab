@@ -26,6 +26,7 @@
 13. [ML ଶବ୍ଦ ଭଣ୍ଡାର](#-ml-ଶବ୍ଦ-ଭଣ୍ଡାର)
 14. [Notebook ଚଲାଅ — How to Run](#-notebook-ଚଲାଅ--how-to-run)
 15. [Files ସୂଚୀ](#-files-ସୂଚୀ)
+16. https://teachablemachine.withgoogle.com/train/image
 
 ---
 
