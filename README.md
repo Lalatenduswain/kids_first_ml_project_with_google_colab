@@ -9,24 +9,50 @@
 
 ---
 
+## 🧺 Dataset କଣ? (ଅତି ସହଜ ଭାବରେ — ୫ ବର୍ଷର ପିଲାଙ୍କ ପାଇଁ)
+
+*(English: What is a Dataset? — a super-simple example for a 5-year-old)*
+
+କଳ୍ପନା କର — ତୋର ଗୋଟିଏ ଖେଳନା ଟୋକେଇ (🧺) ଅଛି।
+ବୋଉ ସେଥିରେ ୩ଟି ଆମ୍ବ ଆଉ ୩ଟି କମଳା ରଖିଦେଲେ (🥭🥭🥭🍊🍊🍊)!
+
+ପ୍ରତିଟି ଫଳ ପାଇଁ ତୁ ଗୋଟିଏ ଛୋଟ ଚିଟ୍ ଲେଖିଲୁ: ଫଳଟି ବଡ଼ ନା ଛୋଟ? ରଙ୍ଗ ହଳଦିଆ ନା କମଳା? 📝
+
+ଏହି ସବୁ ଚିଟ୍ ମିଶାଇଲେ ହୋଇଯାଏ ଗୋଟିଏ Dataset — ଠିକ୍ ଫଳମାନଙ୍କର ଗୋଟିଏ ଛୋଟ ଡାଏରୀ ପରି! 📔
+
+> 🤖 **Robot:** "ମୁଁ ତୁମ ପରି ଫଳ ଦେଖି କି ଚାଖି ପାରିବିନି। ମୋତେ ଖାଲି ସେହି ଚିଟ୍ (Dataset) ଦେଇଦିଅ, ତା'ପରେ ମୁଁ ବି ଶିଖିଯିବି କେଉଁଟା ଆମ୍ବ ଆଉ କେଉଁଟା କମଳା!"
+
+ଗୋଟିଏ ଧାଡ଼ିରେ କହିଲେ: **Dataset ହେଉଛି ବହୁତ ଜିନିଷର ଲେଖା ହୋଇଥିବା notes**, ଯାହାକୁ ପଢ଼ି ଗୋଟିଏ ରୋବଟ୍ ସାଙ୍ଗ ନୂଆ କଥା ଶିଖିପାରେ।
+
+| ଫଳ | ଆକାର | ରଙ୍ଗ |
+|---|---|---|
+| ଆମ୍ବ 🥭 | ବଡ଼ | ହଳଦିଆ |
+| କମଳା 🍊 | ଛୋଟ | କମଳା |
+| ଆମ୍ବ 🥭 | ଛୋଟ | ହଳଦିଆ |
+
+ଏହି ଛୋଟ table ଟି ହିଁ ଆମ ପ୍ରଥମ **Dataset**! ପୂରା project ରେ ଆମେ ଠିକ୍ ଏହିଭଳି — କେବଳ ଅଧିକ ଫଳ ସହିତ — dataset ବ୍ୟବହାର କରିବୁ (ତଳେ Step 2 ଦେଖ)।
+
+---
+
 ## 📋 ବିଷୟସୂଚୀ (Table of Contents)
 
-1. [ସାମଗ୍ରିକ ଚିତ୍ର — Notebook କ'ଣ କରୁଛି?](#-ସାମଗ୍ରିକ-ଚିତ୍ର)
-2. [Step 1 — Libraries ଆଣ](#-step-1--libraries-ଆଣ)
-3. [Step 2 — Dataset ତିଆର](#-step-2--dataset-ତିଆର)
-4. [Step 3 — ଡାଟା ଚିତ୍ର ଦେଖ EDA](#-step-3--ଡାଟା-ଚିତ୍ର-ଦେଖ-eda)
-5. [Step 4 — AI ଶିଖାଅ Training](#-step-4--ai-ଶିଖାଅ-training)
-6. [Step 5 — ନୂଆ ଫଳ Test](#-step-5--ନୂଆ-ଫଳ-test)
-7. [Step 6 — Victory Charts](#-step-6--victory-charts)
-8. [🎁 Bonus Step 7 — RAG (Open-Book AI)](#-bonus-step-7--rag-open-book-ai)
-9. [🎁 Bonus Step 8 — PCP (Step-by-Step AI)](#-bonus-step-8--pcp-step-by-step-ai)
-10. [ଡାଟା ର ଯାତ୍ରା — End-to-End Flow](#-ଡାଟା-ର-ଯାତ୍ରା--end-to-end-flow)
-11. [୧୦୦% Accuracy କାହିଁକି?](#-୧୦୦-accuracy-କାହିଁକି)
-12. [ଚେଷ୍ଟା କର — Experiments](#-ଚେଷ୍ଟା-କର--experiments)
-13. [ML ଶବ୍ଦ ଭଣ୍ଡାର](#-ml-ଶବ୍ଦ-ଭଣ୍ଡାର)
-14. [Notebook ଚଲାଅ — How to Run](#-notebook-ଚଲାଅ--how-to-run)
-15. [Files ସୂଚୀ](#-files-ସୂଚୀ)
-16. https://teachablemachine.withgoogle.com/train/image
+1. [🧺 Dataset କଣ? — ୫ ବର୍ଷ ପିଲାଙ୍କ ପାଇଁ](#-dataset-କଣ-ଅତି-ସହଜ-ଭାବରେ--୫-ବର୍ଷର-ପିଲାଙ୍କ-ପାଇଁ)
+2. [ସାମଗ୍ରିକ ଚିତ୍ର — Notebook କ'ଣ କରୁଛି?](#-ସାମଗ୍ରିକ-ଚିତ୍ର)
+3. [Step 1 — Libraries ଆଣ](#-step-1--libraries-ଆଣ)
+4. [Step 2 — Dataset ତିଆର](#-step-2--dataset-ତିଆର)
+5. [Step 3 — ଡାଟା ଚିତ୍ର ଦେଖ EDA](#-step-3--ଡାଟା-ଚିତ୍ର-ଦେଖ-eda)
+6. [Step 4 — AI ଶିଖାଅ Training](#-step-4--ai-ଶିଖାଅ-training)
+7. [Step 5 — ନୂଆ ଫଳ Test](#-step-5--ନୂଆ-ଫଳ-test)
+8. [Step 6 — Victory Charts](#-step-6--victory-charts)
+9. [🎁 Bonus Step 7 — RAG (Open-Book AI)](#-bonus-step-7--rag-open-book-ai)
+10. [🎁 Bonus Step 8 — PCP (Step-by-Step AI)](#-bonus-step-8--pcp-step-by-step-ai)
+11. [ଡାଟା ର ଯାତ୍ରା — End-to-End Flow](#-ଡାଟା-ର-ଯାତ୍ରା--end-to-end-flow)
+12. [୧୦୦% Accuracy କାହିଁକି?](#-୧୦୦-accuracy-କାହିଁକି)
+13. [ଚେଷ୍ଟା କର — Experiments](#-ଚେଷ୍ଟା-କର--experiments)
+14. [ML ଶବ୍ଦ ଭଣ୍ଡାର](#-ml-ଶବ୍ଦ-ଭଣ୍ଡାର)
+15. [Notebook ଚଲାଅ — How to Run](#-notebook-ଚଲାଅ--how-to-run)
+16. [Files ସୂଚୀ](#-files-ସୂଚୀ)
+17. https://teachablemachine.withgoogle.com/train/image
 
 ---
 
