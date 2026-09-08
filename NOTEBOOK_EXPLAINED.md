@@ -103,7 +103,7 @@ from sklearn.metrics import accuracy_score
 
 ```python
 print("=" * 40)
-print("🤖 Robot: 'ସବୁ tools ଆସିଗଲା!'")
+print("🤖 Robot: 'ସବୁ tools ଆସିଗଲାଣି!'")
 ...
 ```
 - Pure print statements for fun output. The `"=" * 40` prints 40 `=` signs in a row — a simple way to draw a separator line.
@@ -112,13 +112,13 @@ print("🤖 Robot: 'ସବୁ tools ଆସିଗଲା!'")
 ### What the output looks like
 ```
 ========================================
-🤖 Robot: 'ସବୁ tools ଆସିଗଲା!'
-🎒 Backpack ଭର୍ତ୍ତି! Mission start! 🚀
+🤖 Robot: 'ସବୁ tools ଆସିଗଲାଣି!'
+🎒 Backpack ପୂରା ଭର୍ତ୍ତି! Mission start! 🚀
 ========================================
 
-✅ numpy    — calculator ଭଳି (ଗଣିତ ପାଇଁ)
-✅ matplotlib — ଚିତ୍ରକର ଭଳି (chart ଆଁକିବ)
-✅ sklearn  — AI ର super brain! 🧠
+✅ numpy    — ଆମ calculator ଭଳି (ଗଣିତ କରିବା ପାଇଁ)
+✅ matplotlib — ଚିତ୍ରକର ଭଳି (ସୁନ୍ଦର chart ଆଙ୍କିବ)
+✅ sklearn  — ଆମ AI ର super brain! 🧠
 
 🎉 READY TO ROLL!
 ```
@@ -192,7 +192,7 @@ print(f"🍊 Team Orange (କମଳା team): {sum(y==1)} ଟି")
 🍊 Team Orange (କମଳା team): 7 ଟି
 📦 ମୋଟ suspects           : 14 ଟି
 ======================================
-🕵️  Detective Robot: 'ଚାଲ! Case solve କରିବା!'
+🕵️  Detective Robot: 'ଚାଲ ଟୁକୁ! ମିଶିକି Case solve କରିବା!'
 ```
 
 ---
@@ -330,16 +330,16 @@ print(f"📝 AI ର Marks   : {accuracy:.0f}% 📊")
 
 ```python
 if accuracy == 100:
-    print("🎉 ୧୦୦%!! AI ଟି TOPPER!!")
-    print("🤖 Robot: 'ଶିକ୍ଷକ ମୋତେ Gold Medal ଦିଅ! 🥇'")
-    print("🏫 School: 'ତୁ Robot... Medal ନ ମିଳିବ 😤'")
+    print("🎉 ୧୦୦%!! ଆମ AI ପୂରା TOPPER ହୋଇଗଲା!!")
+    print("🤖 Robot: 'ସାର୍ ମୋତେ Gold Medal ଦିଅନ୍ତୁ! 🥇'")
+    print("🏫 School: 'ତୁ ତ ଗୋଟେ Robot... ତୋତେ Medal ମିଳିବନି 😤'")
     print("🤖 Robot: '...okay fine 😞'")
 ```
 - A fun conditional block: if perfect score, the Robot brags and gets roasted. Otherwise, it asks for more data.
 
 ### What the output looks like
 ```
-🔌 AI brain ଚାଲୁ ହେଉଛି...
+🔌 AI ର brain ଏବେ start ହେଉଛି...
 ⚡ Loading... [██████████] 100% — DONE! (actually instant 😅)
 
 🎓 TRAINING REPORT CARD
@@ -349,9 +349,9 @@ if accuracy == 100:
 ✅ Correct      : 14 ଟି
 ===================================
 
-🎉 ୧୦୦%!! AI ଟି TOPPER!!
-🤖 Robot: 'ଶିକ୍ଷକ ମୋତେ Gold Medal ଦିଅ! 🥇'
-🏫 School: 'ତୁ Robot... Medal ନ ମିଳିବ 😤'
+🎉 ୧୦୦%!! ଆମ AI ପୂରା TOPPER ହୋଇଗଲା!!
+🤖 Robot: 'ସାର୍ ମୋତେ Gold Medal ଦିଅନ୍ତୁ! 🥇'
+🏫 School: 'ତୁ ତ ଗୋଟେ Robot... ତୋତେ Medal ମିଳିବନି 😤'
 🤖 Robot: '...okay fine 😞'
 ```
 
@@ -411,16 +411,16 @@ for i, (fruit, result) in enumerate(zip(new_fruits, results)):
 ```
 🔍 DETECTIVE REPORT — MYSTERY FRUITS EXPOSED! 🎉
 ================================================
-Fruit    ଓଜନ   ରଙ୍ଗ  →  ପରିଚୟ
+Fruit       ଓଜନ  ରଙ୍ଗ  →  ପରିଚୟ
 ------------------------------------------------
-🎭 Fruit A:  155g  କମଳା  →  🍊 କମଳା (ORANGE!)
-🥸 Fruit B:   92g  ହଳଦିଆ  →  🥭 ଆମ୍ବ (MANGO!)
-🤔 Fruit C:  175g  କମଳା  →  🍊 କମଳା (ORANGE!)
-😶 Fruit D:   88g  ହଳଦିଆ  →  🥭 ଆମ୍ବ (MANGO!)
+🎭 Fruit A:  155g    କମଳା  →  🍊 କମଳା (ORANGE!)
+🥸 Fruit B:  92g   ହଳଦିଆ  →  🥭 ଆମ୍ବ (MANGO!)
+🤔 Fruit C:  175g    କମଳା  →  🍊 କମଳା (ORANGE!)
+😶 Fruit D:  88g   ହଳଦିଆ  →  🥭 ଆମ୍ବ (MANGO!)
 ================================================
 
-🤖 Robot: 'ମୁଁ ସବୁ ଚିହ୍ନଟ କଲି! ଏବେ ଆଇସ୍ ଖିଆ ମିଳିବ? 🍦'
-👨‍🔬 Scientist: 'ତୁ ଯନ୍ତ୍ର... ଆଇସ୍ ଖୁଆ ମୁ! 😂'
+🤖 Robot: 'ମୁଁ ସବୁ ଚିହ୍ନଟ କରିଦେଲି! ଏବେ ମୋତେ ଆଇସ୍କ୍ରିମ୍ ମିଳିବ ତ? 🍦'
+👨‍🔬 Scientist: 'ଆରେ ତୁ ତ ଗୋଟେ ଯନ୍ତ୍ର... ତୋତେ କେମିତି ଆଇସ୍କ୍ରିମ୍ ଖୁଆଇବି! 😂'
 ```
 
 ---
@@ -503,12 +503,12 @@ The final markdown cell (cell-13) contains a **three-column table** explaining M
 
 | ML Term | Real Meaning | Funny Analogy |
 |---|---|---|
-| **Dataset** | The 14 fruits with features | AI ର Tiffin box 🍱 |
-| **Training** | Showing data to the model | Robot School 🏫 |
+| **Dataset** | The 14 fruits with features | AI ର ଟିଫିନ୍ ବକ୍ସ 🍱 |
+| **Training** | Showing data to the model | Robot ସ୍କୁଲ୍ 🏫 |
 | **Model** | The learned Decision Tree | Robot ର brain 🤖 |
-| **Prediction** | The model's output | Robot ର guess 🎯 |
+| **Prediction** | The model's output | Robot ର ଗେସ୍ 🎯 |
 | **Accuracy** | % of correct predictions | Report Card 📝 |
-| **Overfitting** | Memorising without understanding | Robot rote-learns 😂 |
+| **Overfitting** | Memorising without understanding | Robot ଘୋଷିଦେଲା 😂 |
 
 **Overfitting** is hinted at here but not demonstrated — it's an important concept for future learning. See section 11 below.
 
@@ -648,4 +648,4 @@ print(f"Test accuracy: {accuracy_score(y_test, model.predict(X_test))*100:.0f}%"
 
 *This notebook is intentionally kept simple so that a 10-year-old can run it and understand it. The ML concepts introduced here — data, features, labels, training, prediction, accuracy — are the same foundational ideas used in production ML systems at Google, Meta, and every AI company in the world. The scale is different, the concepts are identical.*
 
-**ତୁ ଏବେ ଏକ AI Engineer! 🤖⭐**
+**ଆରେ ବାଃ! ତୁମେ ଏବେ ଜଣେ AI Engineer ହୋଇଗଲ! 🤖⭐**

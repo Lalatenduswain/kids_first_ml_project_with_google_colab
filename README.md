@@ -1,9 +1,9 @@
 # 🕵️🥭🍊 ମୋର ପ୍ରଥମ AI Project — ଫଳ ଗୋଇନ୍ଦା!
 ### My First AI Project — The Fruit Detective!
 
-**ଓଡ଼ିଆ ଭାଷାରେ** ଲେଖା ହୋଇଥିବା ଏକ beginner-friendly Machine Learning project — ପିଲାମାନଙ୍କୁ AI ଶିଖାଇବା ପାଇଁ। ଆମ୍ବ ଓ କମଳା ଚିହ୍ନଟ କରି AI ଶିଖ!
+ଏହା ହେଉଛି **ଓଡ଼ିଆ ଭାଷାରେ** ଲେଖା ହୋଇଥିବା ଏକ beginner-friendly Machine Learning project — ଖାସ୍ କରି ପିଲାମାନଙ୍କୁ AI ଶିଖାଇବା ପାଇଁ। ଆସ, ଆମ୍ବ ଓ କମଳା ଚିହ୍ନଟ କରି AI ଶିଖିବା!
 
-> 🎁 **ନୂଆ Bonus Level:** ଶେଷରେ ଦୁଇଟି modern-AI concept ମଧ୍ୟ ଅଛି — **RAG** (Open-Book AI 📖) ଓ **PCP** (Step-by-Step AI 🔗) — ସେହି ସମାନ ଫଳ-detective style ରେ, କୌଣସି extra install ବା API key ବିନା।
+> 🎁 **ନୂଆ Bonus Level:** ଶେଷରେ ଦୁଇଟି modern-AI concept ମଧ୍ୟ ରହିଛି — **RAG** (Open-Book AI 📖) ଓ **PCP** (Step-by-Step AI 🔗) — ସେହି ସମାନ ଫଳ-detective style ରେ, ଆଉ ତାହା ପୁଣି ବିନା କୌଣସି extra install ବା API key ରେ।
 
 ![Notebook Output](notebook-output-colab.jpeg)
 
@@ -13,16 +13,16 @@
 
 *(English: What is a Dataset? — a super-simple example for a 5-year-old)*
 
-କଳ୍ପନା କର — ତୋର ଗୋଟିଏ ଖେଳନା ଟୋକେଇ (🧺) ଅଛି।
+ଭାବିନେ, ତୋ ପାଖରେ ଗୋଟିଏ ଖେଳନା ଟୋକେଇ (🧺) ଅଛି।
 ବୋଉ ସେଥିରେ ୩ଟି ଆମ୍ବ ଆଉ ୩ଟି କମଳା ରଖିଦେଲେ (🥭🥭🥭🍊🍊🍊)!
 
-ପ୍ରତିଟି ଫଳ ପାଇଁ ତୁ ଗୋଟିଏ ଛୋଟ ଚିଟ୍ ଲେଖିଲୁ: ଫଳଟି ବଡ଼ ନା ଛୋଟ? ରଙ୍ଗ ହଳଦିଆ ନା କମଳା? 📝
+ପ୍ରତିଟି ଫଳ ପାଇଁ ତୁ ଗୋଟିଏ ଛୋଟ ଚିଟ୍ ଲେଖିଲୁ: ଫଳଟି ବଡ଼ ନା ଛୋଟ? ତା'ର ରଙ୍ଗ ହଳଦିଆ ନା କମଳା? 📝
 
-ଏହି ସବୁ ଚିଟ୍ ମିଶାଇଲେ ହୋଇଯାଏ ଗୋଟିଏ Dataset — ଠିକ୍ ଫଳମାନଙ୍କର ଗୋଟିଏ ଛୋଟ ଡାଏରୀ ପରି! 📔
+ଏହି ସବୁ ଚିଟ୍ କୁ ଏକାଠି ମିଶାଇଦେଲେ ତାହା ଗୋଟିଏ Dataset ହୋଇଯାଏ — ଠିକ୍ ଫଳମାନଙ୍କର ଗୋଟିଏ ଛୋଟ ଡାଏରୀ ପରି! 📔
 
-> 🤖 **Robot:** "ମୁଁ ତୁମ ପରି ଫଳ ଦେଖି କି ଚାଖି ପାରିବିନି। ମୋତେ ଖାଲି ସେହି ଚିଟ୍ (Dataset) ଦେଇଦିଅ, ତା'ପରେ ମୁଁ ବି ଶିଖିଯିବି କେଉଁଟା ଆମ୍ବ ଆଉ କେଉଁଟା କମଳା!"
+> 🤖 **Robot:** "ମୁଁ ତୁମ ପରି ଫଳ ଦେଖି କିମ୍ବା ଚାଖି ପାରିବିନି। ମୋତେ ଖାଲି ସେହି ଚିଟ୍ (Dataset) ଦେଇଦିଅ, ତା'ପରେ ମୁଁ ବି ଶିଖିଯିବି କେଉଁଟା ଆମ୍ବ ଆଉ କେଉଁଟା କମଳା!"
 
-ଗୋଟିଏ ଧାଡ଼ିରେ କହିଲେ: **Dataset ହେଉଛି ବହୁତ ଜିନିଷର ଲେଖା ହୋଇଥିବା notes**, ଯାହାକୁ ପଢ଼ି ଗୋଟିଏ ରୋବଟ୍ ସାଙ୍ଗ ନୂଆ କଥା ଶିଖିପାରେ।
+ଗୋଟିଏ ଧାଡ଼ିରେ କହିଲେ: **Dataset ହେଉଛି ବହୁତ ଗୁଡ଼ିଏ ଜିନିଷ ବିଷୟରେ ଲେଖା ହୋଇଥିବା notes**, ଯାହାକୁ ପଢ଼ି ଆମର ଗୋଟିଏ ରୋବଟ୍ ସାଙ୍ଗ ନୂଆ କଥା ଶିଖିପାରିବ।
 
 | ଫଳ | ଆକାର | ରଙ୍ଗ |
 |---|---|---|
@@ -30,7 +30,7 @@
 | କମଳା 🍊 | ଛୋଟ | କମଳା |
 | ଆମ୍ବ 🥭 | ଛୋଟ | ହଳଦିଆ |
 
-ଏହି ଛୋଟ table ଟି ହିଁ ଆମ ପ୍ରଥମ **Dataset**! ପୂରା project ରେ ଆମେ ଠିକ୍ ଏହିଭଳି — କେବଳ ଅଧିକ ଫଳ ସହିତ — dataset ବ୍ୟବହାର କରିବୁ (ତଳେ Step 2 ଦେଖ)।
+ଏହି ଛୋଟ table ଟି ହିଁ ଆମର ପ୍ରଥମ **Dataset**! ପୂରା project ରେ ଆମେ ଠିକ୍ ଏହିଭଳି — କେବଳ ଆହୁରି ଅଧିକ ଫଳ ସହିତ — dataset ବ୍ୟବହାର କରିବୁ (ତଳେ Step 2 ଦେଖ)।
 
 ---
 
@@ -58,8 +58,8 @@
 
 ## 🔭 ସାମଗ୍ରିକ ଚିତ୍ର
 
-ଏହି Notebook ଏକ **binary classification problem** solve କରୁଛି:
-ଫଳ ର ଓଜନ ଓ ରଙ୍ଗ ଦେଖି — ଏହା **ଆମ୍ବ** ନା **କମଳା** ଠିକ କରିବ।
+ଏହି Notebook ଏକ **binary classification problem** କୁ solve କରୁଛି:
+ଫଳର ଓଜନ ଓ ରଙ୍ଗ ଦେଖି — ଏହା **ଆମ୍ବ** ନା **କମଳା**, ତାହା ଏହା ଠିକ୍ କରିବ।
 
 ```
 Input (ଯାହା ଦେଉ)     →   ML Model     →   Output (ଉତ୍ତର)
@@ -67,21 +67,21 @@ Input (ଯାହା ଦେଉ)     →   ML Model     →   Output (ଉତ୍ତ
                            Tree              "କମଳା"
 ```
 
-**Machine Learning pipeline (ଧାଡ଼ି):**
+**Machine Learning pipeline (ପ୍ରକ୍ରିୟା):**
 ```
 ଡାଟା ସଂଗ୍ରହ → ଚିତ୍ର ଦେଖ → Model ଶିଖାଅ → ଯାଞ୍ଚ କର → ନୂଆ ଫଳ Test
 ```
 
-> 🤖 **Robot:** "ଗୋଟିଏ ଫଳ ଦୋକାନୀ ଚଷ୍ମା ହଜେଇ ଦେଇଛି। ସେ ଫଳ ଚିହ୍ନଟ କରିପାରୁ ନାହିଁ! ମୁଁ help କରିବି! 🕵️"
+> 🤖 **Robot:** "ଗୋଟିଏ ଫଳ ଦୋକାନୀ ତାଙ୍କ ଚଷ୍ମା ହଜେଇ ଦେଇଛନ୍ତି। ସେ ଆଉ ଫଳ ଚିହ୍ନଟ କରିପାରୁ ନାହାଁନ୍ତି! ମୁଁ ତାଙ୍କୁ help କରିବି! 🕵️"
 
-ଏହି Notebook — **ଗୋଟିଏ Jupyter file** — internet ନ ଲାଗେ, GPU ନ ଲାଗେ, Google Colab ରେ free ରେ ଚଳେ।
+ଏହି Notebook ଟି ହେଉଛି — **ଗୋଟିଏ Jupyter file** — ଏହାକୁ ଚଲାଇବା ପାଇଁ internet ଲାଗେନି କିମ୍ବା GPU ଲାଗେନି, ଏହା Google Colab ରେ ସମ୍ପୂର୍ଣ୍ଣ free ରେ ଚାଲେ।
 
 ---
 
 ## 📦 Step 1 — Libraries ଆଣ
 
-> 🤖 **Robot:** "ଖେଳ ଆଗରୁ toys ବାହାର କର — coding ଆଗରୁ tools ଆଣ! 🧰"
-> *(cricket bat ଛଡ଼ା cricket ହୁଏ ନାହିଁ!)*
+> 🤖 **Robot:** "ଖେଳିବା ଆଗରୁ toys ବାହାର କର — ଆଉ coding ଆଗରୁ tools ଆଣ! 🧰"
+> *(cricket bat ବିନା କ'ଣ କେବେ cricket ଖେଳ ହୁଏ!)*
 
 ### Code:
 ```python
@@ -98,11 +98,11 @@ from sklearn.metrics import accuracy_score
 | `numpy` | ଦ୍ରୁତ ଗଣିତ — numbers ର list (array) | Calculator ଭଳି 🔢 |
 | `matplotlib.pyplot` | Chart ଓ Graph ଆଁକେ | ଚିତ୍ରକର ଭଳି 🎨 |
 | `DecisionTreeClassifier` | AI ର brain — data ଦେଖି ଶିଖେ | AI ର ମୁଣ୍ଡ 🧠 |
-| `accuracy_score` | Model କେତେ ଠିକ ଦେଖେ | Marks ଦେଉଥିବା ଶିକ୍ଷକ 📝 |
+| `accuracy_score` | Model କେତେ ଠିକ୍ ଉତ୍ତର ଦେଉଛି ଦେଖେ | Marks ଦେଉଥିବା ଶିକ୍ଷକ 📝 |
 
-**`import numpy as np`** — `as np` ହେଉଛି shortcut। `numpy.array()` ଲେଖିବା ବଦଳରେ `np.array()` ଲେଖ — ସମୟ ବଞ୍ଚେ!
+**`import numpy as np`** — ଏଠାରେ `as np` ହେଉଛି ଗୋଟିଏ shortcut। `numpy.array()` ବୋଲି ଲମ୍ବା ଲେଖିବା ବଦଳରେ ଖାଲି `np.array()` ଲେଖିଲେ କାମ ହୋଇଯିବ — ଏଥିରେ ଆମ ସମୟ ବଞ୍ଚିବ!
 
-**`from sklearn.tree import DecisionTreeClassifier`** — sklearn ର `tree` section ରୁ ଆମ AI brain ଆଣୁଛୁ। Decision Tree ଏହିଭଳି ଭାବି — *"ଓଜନ > 120g? ହଁ → କମଳା। ନା → ଆମ୍ବ।"*
+**`from sklearn.tree import DecisionTreeClassifier`** — ଆମେ sklearn ର `tree` section ରୁ ଆମର AI brain କୁ ଆଣୁଛୁ। Decision Tree ଠିକ୍ ଏହିଭଳି ଭାବେ — *"ଓଜନ > 120g କି? ହଁ → କମଳା। ନା → ଆମ୍ବ।"*
 
 ### Output:
 ```
@@ -120,10 +120,10 @@ from sklearn.metrics import accuracy_score
 
 ## 🥭🍊 Step 2 — Dataset ତିଆର
 
-> 🕵️ **Detective Robot:** "ଫଳ ଚିହ୍ନଟ ପାଇଁ ଦୁଇଟି clue ଯଥେଷ୍ଟ!"
+> 🕵️ **Detective Robot:** "ଫଳ ଚିହ୍ନଟ କରିବା ପାଇଁ ଦୁଇଟି clue ଯଥେଷ୍ଟ!"
 
-**Clue 1 🔍:** ଆମ୍ବ ହାଲୁକା (80–110g), କମଳା ଭାରୀ (130–200g)
-**Clue 2 🎨:** ଆମ୍ବ ହଳଦିଆ (color=0), କମଳା ଲାଲ ରଙ୍ଗ (color=1)
+**Clue 1 🔍:** ଆମ୍ବ ହାଲୁକା ହୁଏ (80–110g), ଆଉ କମଳା ଭାରୀ ହୁଏ (130–200g)
+**Clue 2 🎨:** ଆମ୍ବ ହଳଦିଆ (color=0), ଆଉ କମଳା ଲାଲ୍/କମଳା ରଙ୍ଗର ହୁଏ (color=1)
 
 ### Dataset:
 | ଫଳ | Samples | ଓଜନ | ରଙ୍ଗ code |
@@ -142,30 +142,30 @@ fruits_data = [
     [100, 0],  # 🥭 ଆମ୍ବ — "Alphonso ବଂଶ 😌"
 ]
 ```
-- ଏହା **Python list of lists** — ପ୍ରତ୍ୟେକ ଛୋଟ list `[ଓଜନ, ରଙ୍ଗ]` ଗୋଟିଏ ଫଳ।
-- ଆମ ପାଖରେ **14 ଟି ଫଳ** — 7 ଆମ୍ବ + 7 କମଳା।
-- ଆମ୍ବ (80–110g) ଓ କମଳା (130–200g) ମଧ୍ୟରେ **20g gap** ଅଛି — ଏଣୁ AI ସହଜରେ ଶିଖେ।
+- ଏହା ହେଉଛି ଏକ **Python list of lists** — ପ୍ରତ୍ୟେକ ଛୋଟ list `[ଓଜନ, ରଙ୍ଗ]` ଗୋଟିଏ ଗୋଟିଏ ଫଳକୁ ବୁଝାଏ।
+- ଆମ ପାଖରେ ମୋଟ **14 ଟି ଫଳ** ଅଛି — 7 ଟି ଆମ୍ବ + 7 ଟି କମଳା।
+- ଆମ୍ବ (80–110g) ଓ କମଳା (130–200g) ମଧ୍ୟରେ **20g gap** ରହିଛି — ତେଣୁ AI ଏହାକୁ ବହୁତ ସହଜରେ ଶିଖିଯିବ।
 
 ```python
 labels = [1, 1, 1, 1, 1, 1, 1,   # ← 7 ଟି କମଳା
           0, 0, 0, 0, 0, 0, 0]   # ← 7 ଟି ଆମ୍ବ
 ```
-- ଏହା **ଉତ୍ତର list** — `fruits_data` ର ପ୍ରତ୍ୟେକ ଫଳ ର ଠିକ ଉତ୍ତର।
-- Position 0 (`[150,1]`) → label 0 (`1`) → କମଳା।
-- **ଦୁଇ list ର ଧାଡ଼ି ସମାନ ହେବା ଦରକାର** — ନ ହେଲେ AI ଭୁଲ ଶିଖିବ!
+- ଏହା ହେଉଛି **ଉତ୍ତର list** — `fruits_data` ର ପ୍ରତ୍ୟେକ ଫଳ ପାଇଁ ଠିକ୍ ଉତ୍ତର।
+- Position 0 (`[150,1]`) → ର label 0 (`1`) → ମାନେ କମଳା।
+- **ଦୁଇଟିଯାକ list ର ଧାଡ଼ି ସମାନ ହେବା ନିହାତି ଦରକାର** — ନ ହେଲେ AI ଭୁଲ୍ ଶିଖିଯିବ!
 
 ```python
 X = np.array(fruits_data)   # shape: (14, 2)
 y = np.array(labels)        # shape: (14,)
 ```
-- ML ରେ `X` = **features (input)**, `y` = **labels (ଉତ୍ତର)** — ଏହା worldwide convention।
-- `X` ର shape `(14, 2)` — 14 ଫଳ, 2 ଟି feature ପ୍ରତ୍ୟେକ।
+- ML ରେ `X` = **features (input)**, ଆଉ `y` = **labels (ଉତ୍ତର)** — ଏହା ସାରା ଦୁନିଆରେ worldwide convention ଭାବେ ବ୍ୟବହାର ହୁଏ।
+- `X` ର shape ହେଉଛି `(14, 2)` — ମାନେ 14 ଟି ଫଳ, ଆଉ ପ୍ରତ୍ୟେକ ଫଳ ପାଇଁ 2 ଟି feature।
 
 ```python
 print(f"🥭 Team Mango: {sum(y==0)} ଟି")
 ```
-- `y==0` — boolean array (`True/False`)। `sum()` — True ଗଣେ → ଆମ୍ବ count।
-- `f"..."` — **f-string**: `{}` ଭିତରେ Python expression ସିଧା ଲେଖ।
+- `y==0` — ଏହା ଏକ boolean array (`True/False`)। `sum()` — ଏହା କେତୋଟି True ଅଛି ତାହା ଗଣେ → ଆମ୍ବର count।
+- `f"..."` — ଏହାକୁ **f-string** କୁହାଯାଏ: `{}` ଭିତରେ ତୁମେ ସିଧାସଳଖ Python expression ଲେଖିପାରିବ।
 
 ### Output:
 ```
@@ -181,53 +181,53 @@ print(f"🥭 Team Mango: {sum(y==0)} ଟି")
 
 ## 📊 Step 3 — ଡାଟା ଚିତ୍ର ଦେଖ (EDA)
 
-**EDA = Exploratory Data Analysis** — training ଆଗରୁ ଡାଟା ଦେଖ, pattern ଖୋଜ।
+**EDA = Exploratory Data Analysis** — ମାନେ training ଦେବା ଆଗରୁ ଡାଟାକୁ ଭଲ ଭାବରେ ଦେଖ, ଆଉ ତା' ଭିତରେ pattern ଖୋଜ।
 
-> 💡 ଯଦି chart ରେ ଦୁଇ ଗ୍ରୁପ ଅଲଗା ଦେଖାଉଛି — AI ସହଜରେ ଶିଖିବ। ଯଦି ମିଶି ଅଛି — accuracy କମ ହୁଏ।
+> 💡 ଯଦି chart ରେ ଦୁଇଟି ଗ୍ରୁପ୍ ପୂରା ଅଲଗା ଅଲଗା ଦେଖାଉଛି — ତେବେ AI ବହୁତ ସହଜରେ ଶିଖିବ। ଯଦି ସେଗୁଡ଼ିକ ଏକାଠି ମିଶିକରି ଥିବେ — ତେବେ accuracy କମ୍ ହୋଇଯାଏ।
 
 ### Code ର ଅର୍ଥ:
 
 ```python
 plt.figure(figsize=(9, 5))
 ```
-- ଖାଲି canvas ତିଆର — 9 inch ଚଉଡ଼ା, 5 inch ଉଚ୍ଚ।
+- ଏହା ଗୋଟିଏ ଖାଲି canvas ତିଆରି କରେ — 9 inch ଚଉଡ଼ା, ଆଉ 5 inch ଉଚ୍ଚ।
 
 ```python
 mango_weights = [X[i][0] for i in range(len(y)) if y[i] == 0]
 ```
-- **List comprehension** — compact loop। ଆମ୍ବ ର ଓଜନ ଗୁଡ଼ିକ ଅଲଗା list ରେ ଆଣ।
-- `X[i][0]` = i-ତମ ଫଳ ର ଓଜନ (column 0)।
+- **List comprehension** — ଏହା ଗୋଟିଏ compact loop। ଆମ୍ବର ଓଜନଗୁଡ଼ିକୁ ବାଛି ଗୋଟିଏ ଅଲଗା list କୁ ଆଣ।
+- `X[i][0]` = i-ତମ ଫଳର ଓଜନ (column 0)।
 
 ```python
 plt.scatter(..., color='gold', s=300, zorder=3, edgecolors='darkorange')
 ```
-- `scatter()` = dots chart। `s=300` = dot ର ଆକାର। `zorder=3` = grid ଉପରେ dots ଦେଖାଇବ।
+- `scatter()` = dots chart ବା ବିନ୍ଦୁ ଥିବା ଗ୍ରାଫ୍। `s=300` = dot ର ଆକାର। `zorder=3` = grid ଉପରେ dots ଗୁଡ଼ିକୁ ଉପରକୁ ଦେଖାଇବ।
 
 ```python
 plt.axhline(y=120, color='red', linestyle='--', alpha=0.5)
 ```
-- 120g ରେ ଏକ dashed line — **ଦୁଇ ଗ୍ରୁପ ର boundary**। Decision Tree ଏଠି split ନେବ।
-- `alpha=0.5` = 50% transparent — line ଟି dots ଙ୍କୁ ଲୁଚାଉ ନ ଥାଏ।
+- 120g ରେ ଗୋଟିଏ dashed line ଅଛି — ଯାହାକି **ଦୁଇ ଗ୍ରୁପ୍ ର boundary**। Decision Tree ଠିକ୍ ଏଇଠି ହିଁ split ନେବ।
+- `alpha=0.5` = 50% transparent — ଅର୍ଥାତ୍ ଲାଇନ୍ ଟି ଆମ dots ଗୁଡ଼ିକୁ ଲୁଚାଇବ ନାହିଁ।
 
 ### ଦେଖ:
-- 🟡 ହଳଦିଆ dots **120g ତଳେ** → 7 ଟି ଆମ୍ବ
-- 🟠 କମଳା dots **120g ଉପରେ** → 7 ଟି କମଳା
-- ଦୁଇ ଗ୍ରୁପ **ସ୍ପଷ୍ଟ ଅଲଗା** — ଏହାକୁ *linearly separable* କୁହାଯାଏ।
+- 🟡 ହଳଦିଆ dots ଗୁଡ଼ିକ **120g ତଳେ ଅଛି** → ମାନେ ଆମର 7 ଟି ଆମ୍ବ
+- 🟠 କମଳା ରଙ୍ଗର dots ଗୁଡ଼ିକ **120g ଉପରେ ଅଛି** → ମାନେ ଆମର 7 ଟି କମଳା
+- ଦୁଇଟିଯାକ ଗ୍ରୁପ୍ **ସ୍ପଷ୍ଟ ଭାବେ ଅଲଗା ଅଛନ୍ତି** — ଏହାକୁ *linearly separable* ବୋଲି କୁହାଯାଏ।
 
 ---
 
 ## 🧠 Step 4 — AI ଶିଖାଅ (Training)
 
-> 🤖 **Robot:** "ତୁ ଖାଇ ଖାଇ ଶିଖ (experience)। ମୁଁ data ଦେଖି ଶିଖ (training)! ତୁ 10 ବର୍ଷ ଶିଖୁଛୁ... ମୁଁ 0.001 second ରେ! 😏"
+> 🤖 **Robot:** "ତୁମେ ଖାଇ ଖାଇ ଶିଖ (experience)। ଆଉ ମୁଁ data ଦେଖି ଶିଖେ (training)! ତୁମକୁ ଯାହା ଶିଖିବାକୁ 10 ବର୍ଷ ଲାଗେ... ମୁଁ ତାହା 0.001 second ରେ ଶିଖିଯାଏ! 😏"
 
 ### Code ର ଅର୍ଥ:
 
 ```python
 model = DecisionTreeClassifier(random_state=42)
 ```
-- **Model object** ତିଆର — ଏବେ ଏଇଟି blank brain।
-- `random_state=42` = **random seed** — ପ୍ରତ୍ୟେକ ଥର code ଚଲାଇଲେ ଏକ ଫଳ ମିଳିବ। 42 ଏକ popular choice (pop culture reference — *Hitchhiker's Guide to the Galaxy*)।
-- Decision Tree ଏହିଭଳି ଭାବେ:
+- ଗୋଟିଏ ନୂଆ **Model object** ତିଆରି ହେଲା — ବର୍ତ୍ତମାନ ଏହା ଏକ ପୂରା ଖାଲି brain।
+- `random_state=42` = ଏହା ହେଉଛି **random seed** — ଯାହାଫଳରେ ପ୍ରତିଥର code ଚଲାଇଲେ ସମାନ ଫଳାଫଳ ମିଳିବ। 42 ଏଠି ଗୋଟିଏ popular choice (ଯାହାକି ଗୋଟିଏ pop culture reference — *Hitchhiker's Guide to the Galaxy* ରୁ ଆସିଛି)।
+- Decision Tree ସବୁବେଳେ ଏହିଭଳି ଭାବେ:
 ```
 ଓଜନ > 120g?
 ├── ହଁ → 🍊 କମଳା
@@ -237,18 +237,18 @@ model = DecisionTreeClassifier(random_state=42)
 ```python
 model.fit(X, y)
 ```
-- **ଏହା ସବୁଠୁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ line।**
-- `.fit()` = **training**। 14 ଫଳ ଓ ଉତ୍ତର ଦେଖି AI pattern ଶିଖେ।
-- ଭିତରେ ଭିତରେ: "ଓଜନ > 80? ଓଜନ > 85? ... ଓଜନ > 120?" — ସବୁ try କରି best split ବାଛେ।
-- Modern computer ରେ **1 millisecond** ରୁ କମ ସମୟ ଲାଗେ!
+- **ପୂରା code ରେ ଏହା ହେଉଛି ସବୁଠାରୁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ line।**
+- `.fit()` ର ଅର୍ଥ ହେଲା **training**। ସେହି 14 ଟି ଫଳ ଓ ତା'ର ଉତ୍ତରକୁ ଦେଖି ଆମ AI pattern ଶିଖେ।
+- ସେ ଭିତରେ ଭିତରେ ଭାବେ: "ଓଜନ > 80? ଓଜନ > 85? ... ଓଜନ > 120?" — ଏମିତି ସବୁ try କରି ସବୁଠୁ best split ଟାକୁ ବାଛିଥାଏ।
+- ଆଜିକାଲିର computer ରେ ଏଥିପାଇଁ **1 millisecond** ରୁ ବି କମ୍ ସମୟ ଲାଗେ!
 
 ```python
 predictions = model.predict(X)
 accuracy    = accuracy_score(y, predictions) * 100
 ```
-- `.predict(X)` = model ତାର ଶିଖିଥିବା ଜ୍ଞାନ ବ୍ୟବହାର କରି ଉତ୍ତର ଦିଏ।
-- `accuracy_score(y, predictions)` = ଠିକ ଉତ୍ତର ÷ ମୋଟ × 100 = **14/14 × 100 = 100%**
-- `{accuracy:.0f}` — f-string ରେ `.0f` = 0 decimal place (100.0 → 100)।
+- `.predict(X)` = model ତା'ର ନିଜ ଶିଖିଥିବା ଜ୍ଞାନକୁ ବ୍ୟବହାର କରି ଉତ୍ତର ଦିଏ।
+- `accuracy_score(y, predictions)` = ଠିକ୍ ଉତ୍ତର ÷ ମୋଟ × 100 = **14/14 × 100 = 100%**
+- `{accuracy:.0f}` — f-string ରେ `.0f` ମାନେ 0 decimal place (100.0 କୁ ସିଧା 100 କରିଦିଏ)।
 
 ### Output:
 ```
@@ -258,9 +258,9 @@ accuracy    = accuracy_score(y, predictions) * 100
 📚 Questions    : 14 ଟି ଫଳ
 ✅ Correct      : 14 ଟି
 ===================================
-🎉 ୧୦୦%!! AI ଟି TOPPER!!
-🤖 Robot: 'ଶିକ୍ଷକ ମୋତେ Gold Medal ଦିଅ! 🥇'
-🏫 School: 'ତୁ Robot... Medal ନ ମିଳିବ 😤'
+🎉 ୧୦୦%!! ଆମ AI ପୂରା TOPPER ହୋଇଗଲା!!
+🤖 Robot: 'ସାର୍ ମୋତେ Gold Medal ଦିଅନ୍ତୁ! 🥇'
+🏫 School: 'ତୁ ତ ଗୋଟେ Robot... ତୋତେ Medal ମିଳିବନି 😤'
 🤖 Robot: '...okay fine 😞'
 ```
 
@@ -268,7 +268,7 @@ accuracy    = accuracy_score(y, predictions) * 100
 
 ## 🔍 Step 5 — ନୂଆ ଫଳ Test
 
-> 🕵️ **Detective Robot:** "Mystery fruits ଆସୁଛନ୍ତି! ସେମାନେ mask ପିନ୍ଧିଛନ୍ତି... କିନ୍ତୁ ଓଜନ ଲୁଚାଇ ପାରିବ ନାହାଁନ୍ତି! 😏"
+> 🕵️ **Detective Robot:** "Mystery fruits ଆସୁଛନ୍ତି! ସେମାନେ ମୁହଁରେ mask ପିନ୍ଧିଛନ୍ତି ସତ... କିନ୍ତୁ ନିଜର ଓଜନ କେମିତି ଲୁଚାଇବେ! 😏"
 
 ### Code ର ଅର୍ଥ:
 
@@ -280,17 +280,17 @@ new_fruits = [
     [ 88, 0],   # Mystery Fruit D — ଛୋଟ + ହଳଦିଆ
 ]
 ```
-- ଏହି 4 ଟି ଫଳ model ଆଗରୁ **ଦେଖି ନ ଥିଲା** — ଏହା real-world test।
+- ଏହି 4 ଟି ଫଳକୁ model ଆଗରୁ କେବେ **ଦେଖି ନ ଥିଲା** — ତେଣୁ ଏହା ହେଉଛି ତା'ର real-world test।
 
 ```python
 label_map = {0: '🥭 ଆମ୍ବ (MANGO!)', 1: '🍊 କମଳା (ORANGE!)'}
 ```
-- Python **dictionary** — 0/1 ସଂଖ୍ୟାକୁ readable name ରେ convert କରେ।
+- ଏହା ଗୋଟିଏ Python **dictionary** — ଯାହାକି 0 ଓ 1 ସଂଖ୍ୟାକୁ readable name ରେ convert କରିଦିଏ।
 
 ```python
 results = model.predict(np.array(new_fruits))
 ```
-- Decision Tree ଭିତରେ ପ୍ରଶ୍ନ ପଚାରେ: *"ଓଜନ > 120?"*
+- ଏବେ Decision Tree ନିଜ ଭିତରେ ପ୍ରଶ୍ନ ପଚାରେ: *"ଓଜନ > 120 କି?"*
   - A (155g) → ହଁ → 🍊 ✅
   - B (92g)  → ନା → 🥭 ✅
   - C (175g) → ହଁ → 🍊 ✅
@@ -301,9 +301,9 @@ for i, (fruit, result) in enumerate(zip(new_fruits, results)):
     color_name = 'ହଳଦିଆ' if fruit[1] == 0 else 'କମଳା'
     print(f"{fruit_emojis[i]} Fruit {fruit_names[i]}: {fruit[0]}g {color_name:>6} → {label_map[result]}")
 ```
-- `zip()` = ଦୁଇ list ଏକ ସାଥରେ loop।
-- `enumerate()` = index `i` ମଧ୍ୟ ଦିଏ।
-- `{color_name:>6}` = 6 character ରେ right-align (neat column ପାଇଁ)।
+- `zip()` = ଏହା ଦୁଇଟି list କୁ ଏକାସାଥିରେ loop କରେ।
+- `enumerate()` = ଆମକୁ index `i` ମଧ୍ୟ ଯୋଗାଇଦିଏ।
+- `{color_name:>6}` = ଏହା ଶବ୍ଦକୁ 6 character ରେ right-align କରେ (ଯାହାଫଳରେ ଗୋଟିଏ neat column ତିଆରି ହୁଏ)।
 
 ### Output:
 ```
@@ -314,27 +314,27 @@ for i, (fruit, result) in enumerate(zip(new_fruits, results)):
 🤔 Fruit C:  175g  କମଳା  →  🍊 କମଳା (ORANGE!)
 😶 Fruit D:   88g  ହଳଦିଆ →  🥭 ଆମ୍ବ (MANGO!)
 ================================================
-🤖 Robot: 'ମୁଁ ସବୁ ଚିହ୍ନଟ କଲି! ଆଇସ୍ ଖିଆ ମିଳିବ? 🍦'
+🤖 Robot: 'ମୁଁ ସବୁ ଚିହ୍ନଟ କରିଦେଲି! ଏବେ ଆଇସ୍କ୍ରିମ୍ ମିଳିବ ତ? 🍦'
 ```
 
 ---
 
 ## 🏆 Step 6 — Victory Charts
 
-> 🤖 **Robot:** "୧୦୦% ପାଇଲି! Chart ଦେଖ! ଦେଖ! 👀 *(Robot dance କରୁଛି... robots dance କରନ୍ତି?)*"
+> 🤖 **Robot:** "ୟେସ୍! ମୁଁ ୧୦୦% ପାଇଲି! ମୋ Chart ଦେଖ! ଦେଖ! 👀 *(Robot ଖୁସିରେ dance କରୁଛି... ସତରେ robots ମାନେ dance କରନ୍ତି କି?)*"
 
 ### Code ର ଅର୍ଥ:
 
 ```python
 fig, axes = plt.subplots(1, 2, figsize=(13, 5))
 ```
-- **2 ଟି chart side by side** — `axes[0]` = ବାମ, `axes[1]` = ଡାହାଣ।
+- ଏହାଦ୍ୱାରା **2 ଟି chart ପାଖାପାଖି (side by side) ଆସିବ** — `axes[0]` ହେଲା ବାମ ପଟର, ଆଉ `axes[1]` ଡାହାଣ ପଟର।
 
 **Chart 1 — Pie Chart:**
 ```python
 axes[0].pie([7, 7], autopct='%1.0f%%', explode=(0.05, 0.05), shadow=True)
 ```
-- `[7, 7]` = ସମ ଭାଗ (50-50)। `autopct` = % label auto। `explode` = slice ଟିକେ ବାହାରି ଆସ (dramatic!)। `shadow=True` = 3D ଛାୟା।
+- `[7, 7]` = ଏହା ହେଉଛି ସମାନ ଭାଗ (50-50)। `autopct` = ଏହା % label କୁ auto generate କରେ। `explode` = ଦେଖିବାକୁ ଟିକେ dramatic ଲାଗିବା ପାଇଁ slice ଟିକେ ବାହାରକୁ ବାହାରି ଆସେ। `shadow=True` = ଏହା 3D ଛାୟା ପକାଏ।
 
 **Chart 2 — Bar Chart:**
 ```python
@@ -342,22 +342,22 @@ axes[1].set_ylim(0, 115)
 axes[1].text(0, accuracy + 3, f'{accuracy:.0f}% 🥳', ha='center', fontsize=18)
 axes[1].axhline(y=100, color='gray', linestyle='--')
 ```
-- `ylim(0, 115)` = y-axis 115 ପର୍ଯ୍ୟନ୍ତ — `100% 🥳` text ର ଜାଗା ପାଇଁ।
-- `axhline(y=100)` = perfect score ର dashed reference line।
+- `ylim(0, 115)` = ଏହା y-axis କୁ 115 ପର୍ଯ୍ୟନ୍ତ ବଢ଼ାଇଦିଏ — ଯାହାଫଳରେ `100% 🥳` text ଲେଖିବା ପାଇଁ ଟିକେ ଖୋଲା ଜାଗା ମିଳିବ।
+- `axhline(y=100)` = ଏହା perfect score ପାଇଁ ଗୋଟିଏ dashed reference line ଟାଣିଦିଏ।
 
 ### Output:
-- 🥧 50/50 pie chart — ଦୁଇ team ସମ ସମ
-- 📊 100% ଲেখা ସবুজ bar — AI ର report card!
+- 🥧 ଗୋଟିଏ 50/50 pie chart — ଦୁଇଟିଯାକ team ପୂରା ସମାନ ସମାନ
+- 📊 ଗୋଟିଏ ସବୁଜ ରଙ୍ଗର bar ଯେଉଁଥିରେ 100% ଲେଖାହୋଇଛି — ୟେ ହେଲା ଆମ AI ର report card!
 
 ---
 
 ## 🎁 Bonus Step 7 — RAG (Open-Book AI)
 
-> 🤖 **Robot:** "ଫଳ ଚିହ୍ନଟ ତ ହୋଇଗଲା! ଏବେ ମୁଁ **book ଖୋଜି କଥା** ମଧ୍ୟ କହିପାରିବି! 📖"
+> 🤖 **Robot:** "ଫଳ ଚିହ୍ନଟ କରିବା ତ ହୋଇଗଲା! ଏବେ ମୁଁ **ବହି ଖୋଜି କଥା** ମଧ୍ୟ କହିପାରିବି! 📖"
 
-**RAG = Retrieval-Augmented Generation** — ଆଜିକାଲି ର AI (ଯେମିତି ChatGPT) ର trick। Model ସବୁ ମନେ ରଖେ ନାହିଁ — ପ୍ରଶ୍ନ ଆସିଲେ ଆଗେ **book ରୁ ଠିକ page ଖୋଜେ (Retrieval)**, ତାପରେ **ଉତ୍ତର ତିଆର କରେ (Generation)**। ଠିକ ଯେମିତି **open-book exam**! 😎
+**RAG = Retrieval-Augmented Generation** — ଆଜିକାଲିର AI (ଯେମିତିକି ChatGPT) ମାନଙ୍କର ଏହା ଏକ trick। Model ସବୁକିଛି ନିଜ ମନରେ ରଖେ ନାହିଁ — ପ୍ରଶ୍ନ ଆସିଲେ ସେ ଆଗ **ବହିରୁ ଠିକ୍ page ଟି ଖୋଜେ (Retrieval)**, ତା'ପରେ ନିଜେ **ଉତ୍ତର ତିଆରି କରେ (Generation)**। ପୂରାପୂରି ଗୋଟିଏ **open-book exam** ଦେଲା ପରି! 😎
 
-> 💡 ଏଥିରେ **ନୂଆ install ନାହିଁ, API key ନାହିଁ** — ଆମ ପୁରୁଣା `sklearn` ହିଁ ଯଥେଷ୍ଟ।
+> 💡 ଏଥିପାଇଁ କୌଣସି **ନୂଆ install ଦରକାର ନାହିଁ କି API key ବି ଦରକାର ନାହିଁ** — ଆମର ସେହି ପୁରୁଣା `sklearn` ହିଁ ଯଥେଷ୍ଟ।
 
 ### Code ର ଅର୍ଥ:
 
@@ -372,15 +372,15 @@ fruit_book = [
 ]
 book_vectors = TfidfVectorizer().fit_transform(fruit_book)
 ```
-- `fruit_book` = Robot ର **knowledge base** — ଫଳ facts ର ପ୍ରତ୍ୟେକ line ଏକ "page"।
-- `TfidfVectorizer` ପ୍ରତ୍ୟେକ page କୁ **"meaning fingerprint"** (numbers) ରେ ବଦଳାଏ — ଏହାକୁ *embedding* କୁହାଯାଏ।
+- `fruit_book` = ଏହା ହେଲା Robot ର **knowledge base** — ଫଳ ବିଷୟରେ ଥିବା facts ର ପ୍ରତ୍ୟେକ line ଏଥିରେ ଗୋଟିଏ ଗୋଟିଏ "page" ପରି କାମ କରେ।
+- `TfidfVectorizer` ପ୍ରତ୍ୟେକ page କୁ ଗୋଟିଏ **"meaning fingerprint"** (numbers) ରେ ବଦଳାଇଦିଏ — ଏହାକୁ *embedding* କୁହାଯାଏ।
 
 ```python
 scores = cosine_similarity(q_vec, book_vectors)[0]
 best   = scores.argmax()      # ସବୁଠୁ ଭଲ page
 ```
-- ପ୍ରଶ୍ନ ର fingerprint ପ୍ରତ୍ୟେକ page ସହ କେତେ ମେଳ ଖାଉଛି — `cosine_similarity` ମାପେ।
-- `argmax()` = ସବୁଠୁ ଭଲ ମେଳ page ବାଛେ → **Retrieval!**
+- ଆମ ପ୍ରଶ୍ନର fingerprint ବହିର ପ୍ରତ୍ୟେକ page ସହ କେତେ ମେଳ ଖାଉଛି — `cosine_similarity` ତାହା ମାପିଥାଏ।
+- `argmax()` = ଏହା ସବୁଠାରୁ ଅଧିକ ମେଳ ଖାଉଥିବା page ଟିକୁ ବାଛିଥାଏ → ଏହାକୁ ହିଁ କୁହନ୍ତି **Retrieval!**
 
 ### Output:
 ```
@@ -390,15 +390,15 @@ best   = scores.argmax()      # ସବୁଠୁ ଭଲ page
 🤖 Robot : 'କମଳା ଭାରୀ ହୁଏ, ଓଜନ 130 ରୁ 200 gram — ଏଇଟି ମୋ ଉତ୍ତର!'
 ```
 
-> ✨ **ମୂଳ କଥା:** Robot କିଛି ମନେ ରଖି ନାହିଁ — book ବଦଳାଇ ଦେ, ଉତ୍ତର ନିଜେ ବଦଳିଯିବ। **କୌଣସି re-training ନାହିଁ!** ଏଇଟି ହିଁ RAG ର superpower।
+> ✨ **ମୂଳ କଥା:** Robot ନିଜ ମନରୁ କିଛି ମନେ ରଖି ନାହିଁ — ତୁମେ ଯଦି ବହିଟା ବଦଳାଇ ଦେବ, ତା'ର ଉତ୍ତର ଆପେ ଆପେ ବଦଳିଯିବ। ୟା ପାଇଁ କୌଣସି **re-training ର ଆବଶ୍ୟକତା ନାହିଁ!** ଏଇଟି ହିଁ ତ RAG ର ଅସଲ superpower।
 
 ---
 
 ## 🎁 Bonus Step 8 — PCP (Step-by-Step AI)
 
-> 🤖 **Robot:** "ବଡ଼ ପ୍ରଶ୍ନ କୁ ଏକାଥରେ ନୁହେଁ — **ଛୋଟ ଛୋଟ step** ରେ ଭାଙ୍ଗି solve କରେ! relay race ଭଳି 🏃→🏃→🏃"
+> 🤖 **Robot:** "ମୁଁ ବଡ଼ ପ୍ରଶ୍ନକୁ ଏକାଥରେ ନୁହେଁ — ବରଂ ତାକୁ **ଛୋଟ ଛୋଟ step** ରେ ଭାଙ୍ଗିକରି solve କରେ! ପୂରା relay race ଭଳି 🏃→🏃→🏃"
 
-**PCP = Prompt Chaining Pattern** — ଗୋଟିଏ ବଡ଼ କାମ କୁ ଛୋଟ ଛୋଟ step ର **chain** ରେ ଭାଙ୍ଗ। ପ୍ରତ୍ୟେକ step ର ଉତ୍ତର ପରবର୍ତ୍ତୀ step କୁ **baton** ଭଳି pass ହୁଏ 🥎।
+**PCP = Prompt Chaining Pattern** — ଗୋଟିଏ ବଡ଼ କାମକୁ ଛୋଟ ଛୋଟ step ର ଏକ **chain** ରେ ଭାଙ୍ଗିଦେବା। ଏଠାରେ ପ୍ରତ୍ୟେକ step ର ଉତ୍ତର ତା'ର ପରବର୍ତ୍ତୀ step କୁ ଗୋଟିଏ **baton** ଭଳି pass ହୋଇଯାଏ 🥎।
 
 **ଆମ chain:** ମାପ → ତୁଳନା → ନିଷ୍ପତ୍ତି → ବୁଝାଅ
 
@@ -412,8 +412,8 @@ def robot_thinks(fruit):
     step4_explain(guess)           # 🥎 baton 4 — କାରଣ ବୁଝାଅ
     return guess
 ```
-- ପ୍ରତ୍ୟେକ `step` ର **output** ପରবର୍ତ୍ତୀ step ର **input** ହୁଏ।
-- ପ୍ରତ୍ୟେକ step ଛୋଟ, ସହଜ ଓ **ଅଲଗା ଅଲଗା check** କରିହେବ — ଭୁଲ ହେଲେ ସହଜରେ ଧରାପଡ଼େ।
+- ଏଥିରେ ପ୍ରତ୍ୟେକ `step` ର **output** ଟି ପରବର୍ତ୍ତୀ step ର **input** ହୋଇଯାଏ।
+- ପ୍ରତ୍ୟେକ step ବହୁତ ଛୋଟ, ସହଜ ଓ ସେଗୁଡ଼ିକୁ **ଅଲଗା ଅଲଗା check** ମଧ୍ୟ କରିହେବ — ଯଦି କେଉଁଠି କିଛି ଭୁଲ୍ ହୁଏ, ତେବେ ତାହା ବହୁତ ସହଜରେ ଧରାପଡ଼ିଯାଏ।
 
 ### Output:
 ```
@@ -424,11 +424,11 @@ def robot_thinks(fruit):
 🥎 Step 4 — ବୁଝାଅ   : '🍊 କମଳା, କାରଣ ଏହା ଭାରୀ ଓ କମଳା ରଙ୍ଗ!'
 ```
 
-> ✨ **RAG + PCP ମିଶିଲେ:** ବଡ଼ AI assistant ଦୁଇଟି ଏକାଠି ବ୍ୟବହାର କରେ — **RAG facts ଆଣେ**, ତାପରେ **PCP ସେଇ facts କୁ step-by-step process କରି** ଶେଷ ଉତ୍ତର ଦିଏ।
+> ✨ **RAG ଓ PCP ମିଶିଲେ:** ବଡ଼ ବଡ଼ AI assistant ମାନେ ଏହି ଦୁଇଟିଯାକ ଟେକନିକ୍ କୁ ଏକାଠି ବ୍ୟବହାର କରନ୍ତି — **RAG ନୂଆ facts ଆଣିଦିଏ**, ଆଉ ତା'ପରେ **PCP ସେଇ facts ଗୁଡ଼ିକୁ step-by-step process କରି** ଶେଷ ଉତ୍ତର ଦିଏ।
 
 ---
 
-## 🔄 ଡାଟା ର ଯାତ୍ରା — End-to-End Flow
+## 🔄 ଡାଟାର ଯାତ୍ରା — End-to-End Flow
 
 ```
 Step 2: Python list ତିଆର
@@ -461,13 +461,13 @@ Step 6: Charts — Pie + Bar
 
 ## 💯 ୧୦୦% Accuracy କାହିଁକି?
 
-> ⚠️ ଆସଲ ML project ରେ ୧୦୦% **normal ନୁହେଁ!** ଏଠି 3 ଟି କାରଣ ଅଛି:
+> ⚠️ ଗୋଟିଏ ଆସଲ ML project ରେ ୧୦୦% accuracy ଆସିବାଟା **normal କଥା ନୁହେଁ!** ଆମର ଏଠି ୧୦୦% ଆସିବା ପଛରେ 3 ଟି କାରଣ ରହିଛି:
 
-**କାରଣ 1 — ଡାଟା ଗୁଡ଼ିକ ସ୍ପଷ୍ଟ ଅଲଗା:**
-ଆମ୍ବ (80–110g) ଓ କମଳା (130–200g) ମଧ୍ୟରେ 20g gap। Decision Tree ଗୋଟିଏ ପ୍ରଶ୍ନ ରେ ସବୁ ଠିକ କରିଦିଏ।
+**କାରଣ 1 — ଡାଟାଗୁଡ଼ିକ ପୂରା ସ୍ପଷ୍ଟ ଭାବେ ଅଲଗା ଅଛନ୍ତି:**
+ଆମ୍ବ (80–110g) ଓ କମଳା (130–200g) ର ଓଜନ ମଧ୍ୟରେ 20g ର gap ରହିଛି। ସେଥିପାଇଁ Decision Tree ଖାଲି ଗୋଟିଏ ପ୍ରଶ୍ନ ପଚାରି ସବୁକିଛି ଠିକ୍ କରିଦେଲା।
 
-**କାରଣ 2 — Training data ଉପରେ test:**
-`model.predict(X)` — ଯାହା ଦେଖି ଶିଖିଲା ସେଥି ଉପରେ test। ଠିକ ଯେମିତି ଛାତ୍ର ଆଗୁଆ ଉତ୍ତର ଜାଣି exam ଦେଲା! ଆସଲ ML ରେ **train/test split** ଦରକାର:
+**କାରଣ 2 — Training data ଉପରେ ହିଁ ଆମେ test କଲୁ:**
+`model.predict(X)` — ମାନେ ସେ ଯେଉଁ ଡାଟା ଦେଖି ଶିଖିଥିଲା, ଆମେ ପୁଣି ସେଇଥିରେ ହିଁ ତା'ର test ନେଲୁ। ଏହା ଠିକ୍ ସେମିତି ହେଲା ଯେମିତି ଜଣେ ଛାତ୍ର ଆଗରୁ ଉତ୍ତର ଜାଣିସାରି ପରୀକ୍ଷା ଦେଲା! ଆସଲ ML ରେ **train/test split** ର ନିହାତି ଦରକାର ପଡ଼ିଥାଏ:
 ```python
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
@@ -475,11 +475,11 @@ model.fit(X_train, y_train)
 accuracy = accuracy_score(y_test, model.predict(X_test))
 ```
 
-**କାରଣ 3 — Dataset ଅତ୍ୟଧିକ ଛୋଟ:**
-14 samples — ଆସଲ project ରେ ହଜାର ହଜାର।
+**କାରଣ 3 — ଆମ Dataset ଟି ଅତ୍ୟଧିକ ଛୋଟ:**
+ଆମର ଏଠି କେବଳ 14 ଟି samples ଅଛି — କିନ୍ତୁ ଆସଲ project ମାନଙ୍କରେ ହଜାର ହଜାର samples ଥାଏ।
 
 **Overfitting କ'ଣ?**
-ଯଦି ଆମ୍ବ ଓ କମଳା ର ଓଜନ overlap ହୁଅନ୍ତା (ଯେମ. ଆମ୍ବ 145g), model training data **rote learn** କରନ୍ତା — ନୂଆ ଫଳ ରେ fail। ଏହାକୁ **overfitting** (Robot rote-learn 😂) କୁହାଯାଏ।
+ଯଦି ଆମ୍ବ ଓ କମଳାର ଓଜନ ପରସ୍ପର ସହ overlap ହେଉଥାନ୍ତା (ଯେମିତିକି ଆମ୍ବର ଓଜନ ଯଦି 145g ଥାନ୍ତା), ତେବେ model ଟି training data କୁ ଘୋଷିଦେଇଥାନ୍ତା (**rote learn** କରନ୍ତା) — ଆଉ ନୂଆ ଫଳ ଦେଖିଲା ବେଳକୁ fail ହୋଇଯାଆନ୍ତା। ଏହାକୁ ହିଁ ମଜାରେ **overfitting** (ବା Robot ର rote-learn 😂) ବୋଲି କୁହାଯାଏ।
 
 ---
 
@@ -491,14 +491,14 @@ accuracy = accuracy_score(y_test, model.predict(X_test))
 fruits_data.append([145, 0])
 labels.append(0)
 ```
-→ Accuracy 100% ରୁ ତଳକୁ ଖସିବ — AI confuse ହୁଏ ଦେଖ!
+→ ଏହା କଲେ Accuracy 100% ରୁ ତଳକୁ ଖସିଯିବ — ଟିକେ ଦେଖିଲୁ AI କେମିତି confuse ହୋଇଯାଉଛି!
 
-### Experiment 2 — ରଙ୍ଗ ବାଦ ଦିଅ
+### Experiment 2 — ରଙ୍ଗକୁ ବାଦ୍ ଦିଅ
 ```python
 X_weight_only = X[:, 0:1]   # ଶୁଧୁ ଓଜନ
 model.fit(X_weight_only, y)
 ```
-→ ଏହି dataset ରେ ଓଜନ ଏକୁଟିଆ ଯଥେଷ୍ଟ। Accuracy ତଥାପି 100% — ରଙ୍ଗ redundant!
+→ ଏହି dataset ରେ ଖାଲି ଓଜନକୁ ଦେଖିଲେ ବି ଯଥେଷ୍ଟ ହେବ। Accuracy ତଥାପି 100% ହିଁ ରହିବ — ମାନେ ଏଠି ରଙ୍ଗର କିଛି ଦରକାର ନାହିଁ (redundant)!
 
 ### Experiment 3 — 3ୟ ଫଳ ଯୋଡ଼ (Multi-class)
 ```python
@@ -506,15 +506,15 @@ model.fit(X_weight_only, y)
 fruits_data += [[25,2],[30,2],[35,2]]
 labels      += [2, 2, 2]
 ```
-→ **3-class classification!** Decision Tree ଆପେ handle କରେ।
+→ ଏହାଦ୍ୱାରା ୟେ **3-class classification!** ହୋଇଯିବ। ଆମ Decision Tree ତାକୁ ଆପେ ଆପେ handle କରିଦେବ।
 
-### Experiment 4 — ଅଲଗା Algorithm
+### Experiment 4 — ଅଲଗା Algorithm ବ୍ୟବହାର କର
 ```python
 from sklearn.neighbors import KNeighborsClassifier
 model = KNeighborsClassifier(n_neighbors=3)
 model.fit(X, y)
 ```
-→ Decision Tree ସହ compare କର। ଦୁଇଟି ଏଠି 100% ଦେବ।
+→ ୟାକୁ ଆମ Decision Tree ସହିତ compare କରିଦେଖ। ଏଇଠି ଦୁଇଟିଯାକ 100% ମାର୍କ ହିଁ ରଖିବେ।
 
 ### Experiment 5 — Train/Test Split (ଆସଲ ପଦ୍ଧତି)
 ```python
@@ -523,7 +523,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_
 model.fit(X_train, y_train)
 print(f"Test accuracy: {accuracy_score(y_test, model.predict(X_test))*100:.0f}%")
 ```
-→ Model ନ ଦେଖିଥିବା data ରେ test — ଆସଲ evaluation!
+→ Model ଆଗରୁ କେବେ ଦେଖିନଥିବା data ରେ ତା'ର test ନିଅ — ଏହା ହେଉଛି ଆସଲ evaluation!
 
 ---
 
@@ -532,36 +532,36 @@ print(f"Test accuracy: {accuracy_score(y_test, model.predict(X_test))*100:.0f}%"
 | ML ଶବ୍ଦ | ଅର୍ଥ | ମଜାଳିଆ ଉଦାହରଣ 😂 |
 |---------|------|-----------------|
 | **Dataset** | ଶିଖିବା ପାଇଁ ଡାଟା | AI ର Tiffin box 🍱 |
-| **Feature** | Input ର ଗୁଣ (ଓଜନ, ରଙ୍ଗ) | ଫଳ ର ପରିଚୟ card |
-| **Label** | ଠିକ ଉତ୍ତର (0 ବା 1) | ପ୍ରଶ୍ନ ପତ୍ର ର answer key |
+| **Feature** | Input ର ଗୁଣ (ଓଜନ, ରଙ୍ଗ) | ଫଳର ପରିଚୟ card |
+| **Label** | ଠିକ୍ ଉତ୍ତର (0 ବା 1) | ପ୍ରଶ୍ନପତ୍ରର answer key |
 | **Training** | AI କୁ ଡାଟା ଦେଖାଇ ଶିଖାଇବା | Robot School 🏫 |
 | **Model** | Trained AI (Decision Tree) | Robot ର ମୁଣ୍ଡ 🤖 |
 | **Prediction** | Model ର ଉତ୍ତର | Robot ର guess 🎯 |
-| **Accuracy** | ଠିକ ଉତ୍ତର ର % | Report Card 📝 |
-| **Overfitting** | Rote learn — ଆସଲ ଶିଖା ନାହିଁ | Robot ମୁଣ୍ଡ ପକ 😂 |
-| **EDA** | Training ଆଗରୁ data ଚିତ୍ର ଦେଖ | ଖେଳ ଆଗରୁ field ଦେଖ |
-| **RAG** | ଆଗେ book ଖୋଜ, ତାପରେ ଉତ୍ତର | Open-book exam 📖 |
-| **Retrieval** | ଠିକ page/document ଖୋଜିବା | Book ରେ bookmark ⭐ |
-| **Embedding** | ଶବ୍ଦ ର "meaning fingerprint" | ପ୍ରତ୍ୟେକ line ର ID card 🪪 |
-| **PCP** | ବଡ଼ କାମ କୁ ଛୋଟ step ର chain | Relay race 🏃→🏃 |
-| **Chaining** | ଗୋଟିଏ step ର ଉତ୍ତର ଅନ୍ୟ କୁ ଦେବା | Baton pass 🥎 |
+| **Accuracy** | ଠିକ୍ ଉତ୍ତରର % | Report Card 📝 |
+| **Overfitting** | Rote learn — ଆସଲରେ କିଛି ଶିଖିନାହିଁ | Robot ମୁଣ୍ଡ ପୋତି ଘୋଷିବା 😂 |
+| **EDA** | Training ଦେବା ଆଗରୁ data ର ଚିତ୍ର ଦେଖିବା | ଖେଳିବା ଆଗରୁ field ଦେଖିବା |
+| **RAG** | ଆଗ ବହି ଖୋଜ, ତା'ପରେ ଉତ୍ତର ଦିଅ | Open-book exam 📖 |
+| **Retrieval** | ଠିକ୍ page ବା document ଖୋଜିବା | ବହିରେ bookmark ଦେବା ⭐ |
+| **Embedding** | ଶବ୍ଦର "meaning fingerprint" | ପ୍ରତ୍ୟେକ line ର ID card 🪪 |
+| **PCP** | ବଡ଼ କାମକୁ ଛୋଟ ଛୋଟ step ର chain କରିବା | Relay race 🏃→🏃 |
+| **Chaining** | ଗୋଟିଏ step ର ଉତ୍ତର ଅନ୍ୟଟିକୁ ଦେବା | Baton pass କରିବା 🥎 |
 
 ---
 
 ## 🚀 Notebook ଚଲାଅ — How to Run
 
-**Option 1 — Google Colab (ସବୁଠୁ ସହଜ):**
-1. `kids_first_ml_project.ipynb` → Google Drive upload
-2. Colaboratory ରେ open
-3. Shift+Enter ଦ୍ୱାରା cell ଗୁଡ଼ିକ ଚଲାଅ
+**Option 1 — Google Colab (ସବୁଠୁ ସହଜ ଉପାୟ):**
+1. `kids_first_ml_project.ipynb` ଫାଇଲ୍ ଟିକୁ ନେଇ Google Drive ରେ upload କର।
+2. ତାକୁ Colaboratory ରେ open କର।
+3. ତା'ପରେ Shift+Enter ଦବାଇ cell ଗୁଡ଼ିକୁ ଚଲାଅ।
 
-**Option 2 — Local Jupyter:**
+**Option 2 — Local Jupyter ରେ ଚଲାଇବା ପାଇଁ:**
 ```bash
 pip install numpy matplotlib scikit-learn jupyter
 jupyter notebook kids_first_ml_project.ipynb
 ```
 
-**Dependencies:**
+**Dependencies (କ'ଣ ସବୁ ଦରକାର):**
 ```bash
 pip install numpy matplotlib scikit-learn
 ```
@@ -570,18 +570,18 @@ pip install numpy matplotlib scikit-learn
 
 ## 📁 Files ସୂଚୀ
 
-| File | ବିବରଣ |
-|------|-------|
-| `kids_first_ml_project.ipynb` | ସମ୍ପୂର୍ଣ ML tutorial notebook (ଓଡ଼ିଆ + Python) |
+| File | ବିବରଣୀ |
+|------|--------|
+| `kids_first_ml_project.ipynb` | ସମ୍ପୂର୍ଣ୍ଣ ML tutorial notebook (ଓଡ଼ିଆ + Python) |
 | `NOTEBOOK_EXPLAINED.md` | ପ୍ରତ୍ୟେକ cell ର English ରେ detail ବ୍ୟାଖ୍ୟା |
-| `fine-tuning-hyperparameter-comparison.csv` | Hyperparameter ଉଦାହରଣ (ଓଡ଼ିଆ + Advanced) |
-| `notebook-output-colab.jpeg` | Colab ରେ ଚଲୁଥିବା screenshot |
-| `Fine_Tuning_Hyperparameter_Odia_FUNNY_Guide.pdf` | Funny hyperparameter guide (ଓଡ଼ିଆ) |
-| `Fine_Tuning_Hyperparameter_Odia_Simple_Guide.pdf` | Simple hyperparameter guide (ଓଡ଼ିଆ) |
+| `fine-tuning-hyperparameter-comparison.csv` | Hyperparameter ର ଉଦାହରଣ (ଓଡ଼ିଆ + Advanced) |
+| `notebook-output-colab.jpeg` | Colab ରେ ଏହା ଚାଲୁଥିବା ବେଳର screenshot |
+| `Fine_Tuning_Hyperparameter_Odia_FUNNY_Guide.pdf` | ଗୋଟିଏ funny hyperparameter guide (ଓଡ଼ିଆରେ) |
+| `Fine_Tuning_Hyperparameter_Odia_Simple_Guide.pdf` | ଗୋଟିଏ simple hyperparameter guide (ଓଡ଼ିଆରେ) |
 
 ---
 
-## 📊 Notebook — ପ୍ରତ୍ୟେକ Cell ଏକ ନଜରରେ
+## 📊 Notebook — ପ୍ରତ୍ୟେକ Cell ଉପରେ ଏକ ନଜର
 
 | Cell | ପ୍ରକାର | କ'ଣ କରେ | ML Concept |
 |------|--------|---------|------------|
@@ -589,13 +589,13 @@ pip install numpy matplotlib scikit-learn
 | cell-1 | Markdown | Step 1 intro | Analogy |
 | cell-2 | Code | Libraries import | numpy, matplotlib, sklearn |
 | cell-3 | Markdown | Feature table | Features & labels |
-| cell-4 | Code | Dataset (X, y) ତିଆର | Array, labels, f-string |
+| cell-4 | Code | Dataset (X, y) ତିଆରି | Array, labels, f-string |
 | cell-5 | Markdown | EDA intro | EDA concept |
 | cell-6 | Code | Scatter plot | Visualisation, separability |
 | cell-7 | Markdown | Training analogy | Training concept |
 | cell-8 | Code | Model train + evaluate | `.fit()`, `.predict()`, accuracy |
 | cell-9 | Markdown | Mystery fruit intro | Inference |
-| cell-10 | Code | ନୂଆ ଫଳ predict | `.predict()`, dict, zip |
+| cell-10 | Code | ନୂଆ ଫଳ predict କରିବା | `.predict()`, dict, zip |
 | cell-11 | Markdown | Victory intro | Celebration |
 | cell-12 | Code | Pie + Bar charts | subplots, pie, bar, axhline |
 | cell-13 | Markdown | Glossary + next steps | Recap |
@@ -607,7 +607,7 @@ pip install numpy matplotlib scikit-learn
 
 ---
 
-> *ଏହି notebook ଇଚ୍ଛାକୃତ ଭାବରେ ସରଳ ରଖାଯାଇଛି ଯାହା ଫଳରେ 10 ବର୍ଷ ର ପିଲା ବି ଚଲାଇ ପାରିବ। ଏଠି ଶିଖୁଥିବା concepts — data, features, labels, training, prediction, accuracy — ସେହି ସବୁ ପ୍ରାଥମିକ ଜ୍ଞାନ ଯାହା Google, Meta, ଓ ସବୁ AI company ବ୍ୟବହାର କରେ। Scale ଅଲଗା, concept ଗୁଡ଼ିକ ଏକ।*
+> *ଏହି notebook କୁ ଇଚ୍ଛାକୃତ ଭାବରେ ବହୁତ ସରଳ ରଖାଯାଇଛି ଯାହାଫଳରେ ଗୋଟିଏ 10 ବର୍ଷର ପିଲା ବି ଏହାକୁ ଆରାମରେ ଚଲାଇ ପାରିବ। ଏଠି ଆମେ ଶିଖୁଥିବା concepts ଯେମିତିକି — data, features, labels, training, prediction, ଓ accuracy — ଏହିସବୁ ହେଉଛି ସେହି ପ୍ରାଥମିକ ଜ୍ଞାନ ଯାହାକୁ Google, Meta, ଆଉ ଦୁନିଆର ସବୁ ବଡ଼ ବଡ଼ AI company ମାନେ ମଧ୍ୟ ବ୍ୟବହାର କରନ୍ତି। ସେମାନଙ୍କର କାମ କରିବାର scale ଟିକେ ଅଲଗା ହୋଇପାରେ, କିନ୍ତୁ ମୂଳ concept ଗୁଡ଼ିକ ପୂରାପୂରି ଏକା।*
 
-**ତୁ ଏବେ ଏକ AI Engineer! 🤖⭐**
-*(Robot ଠୁ ଭଲ — ତୁ ice cream ଖାଇ ପାରୁଛୁ! 🍦)*
+**ଏବେ ତୁ ବି ଜଣେ AI Engineer ହୋଇଗଲୁ! 🤖⭐**
+*(ସତ କହିଲେ ତୁ Robot ଠାରୁ ଆହୁରି ଭଲ — କାରଣ ତୁ ice cream ବି ଖାଇ ପାରୁଛୁ! 🍦)*
